@@ -1,0 +1,92 @@
+:root{
+    --primary:#030405;
+    --secondary: #E97A0D;
+}
+
+html,body{
+    background: var(--primary);
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+}
+
+/* APP HEADER */
+.web-intro{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.web-intro > .intro-img{
+    width: 200px;
+}
+
+.flex{
+    display: flex;
+}
+
+.align{
+    align-items: center;
+}
+
+.justify{
+    justify-content: center;
+}
+
+
+/* HERO SECTION */
+.section{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    border-radius: 20px;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/20232/83f3aecfe60c6ec13a09696b3465907a.jpg);
+}
+
+.content{
+    padding: 50px;
+    width: 30%;
+   display: block;
+   align-items: center;
+   justify-content: center;
+}
+
+.content > h1{
+    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--secondary);
+}
+
+.content > l1{
+    font-size: 1.5rem;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+.play-store{
+    width: 250px;
+    height: 100px;
+    background-image: url(https://dl.dir.freefiremobile.com/common/web_event/official2/dist/client/img/google_play.b8a7e58.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+
+}
+
+.end-enhancer{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: -120px;
+}
+
+/*NEWS SECTION*/
+/* .news-section{
+    background-image: url("https://dl.dir.freefiremobile.com/common/web_event/official2.ff.garena.all/20233/05c1859f480911c6e303e22eb9d879d0.jpg");
+} */
